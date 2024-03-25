@@ -83,12 +83,12 @@
         "npm run lint"
       ],
       "before:release": [
-        "git checkout -b release/${version} develop"
+        "git checkout -b release/${version} develop",
+        "git push origin release/${version}"
       ],
       "after:release": [
         "git checkout master",
         "git merge --no-ff release/${version}",
-        "git tag -a 1.2.0",
         "git merge --no-ff release/${version}",
         "git branch -d release/${version}"
       ]
