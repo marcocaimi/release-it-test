@@ -1,5 +1,12 @@
 # Changelog - Storepicking Vue
 
+## [0.1.1](https://codebase.digitelematica.it///compare/0.1.0...0.1.1) (2024-04-17)
+
+
+### Configuration
+
+* new package ([468a6a1](https://codebase.digitelematica.it///commit/468a6a163f7fa539489cc49151b570d2b0b61514))
+
 ## [0.1.0](https://github.com/marcocaimi/release-it-test/compare/0.0.2...0.1.0) (2024-04-17)
 
 
