@@ -1,6 +1,10 @@
 {
   "name": "vue-project",
   "version": "0.1.0",
+  "repository": {
+    "url": "https://codebase.digitelematica.it/projects/ebsn/repositories/ebsn-storepicking-vue/commit/{{hash}}",
+    "type": "https"
+  },
   "private": true,
   "type": "module",
   "scripts": {
