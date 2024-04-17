@@ -82,15 +82,10 @@
       "before:init": [
         "npm run lint"
       ],
-      "before:release": [
-        "git checkout -b release/${version} develop",
-        "git push origin release/${version}"
-      ],
       "after:release": [
-        "git checkout master",
-        "git merge --no-ff release/${version}",
-        "git merge --no-ff release/${version}",
-        "git branch -d release/${version}"
+        "git rebase develop master",
+        "git push --all",
+        "git switch develop"
       ]
     }
   }
